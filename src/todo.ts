@@ -67,7 +67,7 @@ export const seed: readonly Todo[] = [
   { id: crypto.randomUUID(), title: "Rewrite the yield* experiment", done: true },
   { id: crypto.randomUUID(), title: "Make every child a yield*", done: true },
   { id: crypto.randomUUID(), title: "Build a todo app with it", done: false },
-  { id: crypto.randomUUID(), title: "Show it to someone", done: false },
+  { id: crypto.randomUUID(), title: "Show it to someone", done: true },
 ];
 
 const matches = (filter: Filter, todo: Todo): boolean =>
